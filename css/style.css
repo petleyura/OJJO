@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic");
+@import url("https://allfont.ru/allfont.css?fonts=noto-serif-bold,&display=swap&subset=cyrillic-ext");
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	/* max-width: 1920px; */
+	/* background-color: rgb(61, 59, 59); */
+}
+/* ------------------ */
+
+.header {
+ background-image: url('../img/header.jpg');
+ background-repeat: no-repeat;
+background-position: 50% 50%;
+ width: 100%;
+ height: 49.5%;
+ text-align: center;
+
+ /* background-color: rgb(73, 66, 66); */
+ 
+}
+a{
+	color: rgb(255, 255, 255);
+}
+.header__list li{
+	display: inline-block;
+	/* margin: 0 auto; */
+	vertical-align: middle;
+	margin: 0 20px;
+	
+	
+}
+.header__menu{
+	/* margin: 0 auto; */
+	padding-top: 25px ;
+	/* padding-left: 21%; */
+	
+	
+}
+.header__list img{
+	margin-right: 16px;
+}
+.header__logo {
+}
+h1 {
+	margin-top: 27%;
+	font-family: 'Noto Serif Bold', arial;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+	color: rgb(255, 255, 255);
+}
+.button {
+font-family: Gilroy;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+background: #333333;
+border: 1px solid #FFFFFF;
+display: inline-block;
+padding: 15px 35px;
+margin-top: 3%;
+}
+.header__footer{
+	margin-top: 4%;
+	font-size: 0px;
+	padding-bottom: 30px;
+}
+.header__img {
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+	display: inline-block;
+	
+}
+.box {
+	max-width: 1110px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5.21%;
+	padding-bottom: 6.25%;
+	font-size: 0px;
+	margin-bottom: 54px;
+
+}
+.box__text {
+	font-family: Gilroy;
+	font-size: 21px;
+	
+}
+.box__h2 {
+	font-family: 'Noto Serif Bold', arial;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 41px;
+	padding-top: 15px;
+	margin-bottom: 60px;
+}
+.box__menu {
+margin-bottom: 25px;
+	
+}
+.box__list li {
+display: inline-block;
+width: 165px;
+height: 55px;
+border: 1px solid #D6D6D6;
+background: #F9F9F9;
+/* tex-shadow: 5px 5px 1px #D6D6D6; */
+color: #333333;
+padding: 17px 0;
+text-transform: uppercase;
+font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+margin-right: 18px;
+}
+.box__menu li:hover{
+	display: inline-block;
+width: 165px;
+height: 55px;
+border: 1px solid #333333;
+background: #333333;;
+/* tex-shadow: 5px 5px 1px #D6D6D6; */
+color: #FFFFFF;
+padding: 17px 0;
+border-radius: 10px;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+}
+.box__list a {
+	color: #333333;
+}
+.box__list a:hover {
+	color: #FFFFFF;
+	transition: all 0.3s ease 0s;
+}
+
+.box__img {
+	display: inline-block;
+	max-width: 340px;
+	margin-top: 30px;
+	margin-right: 30px;
+	opacity: 0.5;
+	
+}
+.box__img:hover {
+	display: inline-block;
+	max-width: 340px;
+	margin-top: 30px;
+	margin-right: 30px;
+	opacity: 1;
+	border-radius: 25px 60px;
+	transition: all 0.3s ease 0s;
+	box-shadow: 5px 5px 25px rgb(255, 0, 0);
+}
+
+.box__img img{
+	max-width: 100%;
+	border-radius: 10px;
+}
+.box__img img:hover{
+	max-width: 100%;
+	border-radius: 25px 60px;
+	transition: all 0.3s ease 0s;
+}
+.box__img p{
+	text-transform: uppercase;
+	margin-top: -60px;
+	font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+/* letter-spacing: 0.1em; */
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.block {
+	max-width: 1920px;
+	margin: 0 auto;
+	background-image: url('../img/box2/Rectangle\ 6.jpg');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	height: 541px;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 100px 10px 0px 10px;
+
+}
+.block__lorem {
+	max-width: 730px;
+	margin-top: 45px;
+	margin: 0 auto;
+	font-family: Gilroy;
+	font-size: 18px;
+}
+.block__dutton {
+font-family: Gilroy;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: rgb(8, 8, 8);
+background: #fffefe;
+border: 1px solid #FFFFFF;
+display: inline-block;
+padding: 15px 35px;
+margin-top: 6.32%;
+border-radius: 5px;
+
+}
+.block__dutton:hover {
+font-family: Gilroy;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: rgb(8, 8, 8);
+background: #fffefe;
+border: 1px solid #FFFFFF;
+display: inline-block;
+padding: 15px 35px;
+margin-top: 6.32%;
+border-radius: 5px;
+}
+footer {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.footer {
+	max-width: 1110px;
+	margin: 0 auto;
+	/* vertical-align: top; */
+}
+.footer__content {
+	display: inline-block;
+	width: 250px;
+	height: 229px;
+	margin-right: 25px;
+	float: left;
+
+
+}
+.footer__content p{
+	font-family: Gilroy;
+font-size: 14px;
+color: #333333;
+margin: 5px 0px 10px 0px;
+}
+
+h3{
+font-family: Gilroy;
+font-weight: 500;
+font-size: 18px;
+text-transform: uppercase;
+color: #333333;
+padding-bottom: 10px;
+border-bottom: 1px solid #333333;
+margin-bottom: 25px;
+
+}
+.footer__content__img{
+	margin-top: 11px;
+}
+.footer__content img{
+	display: inline-block;
+	margin-right: 21px;
+	
+}
+.footer__content__contakt img{
+	margin-bottom: 19px;
+}
+.footer__content__networks {
+	margin-top: 27px;
+}
+.footer__footer {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	border-top: 1px solid #333333;
+	padding: 20px 0;
+	height: 63px;
+	
+	/* text-align: center; */
+	
+}
+.footer__footer p{
+	margin: 0 auto;
+	text-align: center;
+	font-family: Gilroy;
+	font-size: 14px;
+	color: #333333;
+	
+}
+
+
+/* .button {
+	background: #ff5722;
+	color: #fff;
+	font-weight: 700;
+	padding: 15px 10px;
+	text-align: center;
+	display: block;
+	max-width: 350px;
+	line-height: 23px;
+	font-size: 18px;
+	text-transform: uppercase;
+ } */
+
+
+/* 
+.block {
+	background-color: green;
+	padding: 15px;
+	margin: 0px 0px 50px 0px;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+}
+.block:hover {
+}
+.block span {
+	font-weight: 700;
+}
+.wrapper {
+}
+.wrapper:hover .block {
+	opacity: 1;
+	visibility: visible;
+}
+ */
+/*
+.block-scroll {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	background-color: green;
+	border: 5px dashed red;
+}
+.block-scroll__inner {
+	padding: 15px 45px 15px 15px;
+	overflow: auto;
+
+	margin: 0px -30px 0px 0px;
+	height: 200px;
+}
+*/
+/* .image {
+	width: 200px;
+	height: 200px;
+	margin: 0px auto;
+	display: block;
+	border-radius: 50%;
+}
+.inline {
+	border-radius: 50%;
+	border: 5px dashed red;
+	line-height: 30px;
+	background-color: orange;
+} */
+/* 
+border
+Универсальное свойство border позволяет одновременно установить толщину, 
+стиль и цвет границы вокруг элемента.
+border: 1px solid #000; (размер стиль цвет)
+Основные стили -solid dotted dashed
+
+border-radius
+Устанавливает радиус скругления уголков блока.
+border-radius:50%; - кргуг
+Можно использовать вместе с overflow: hidden;
+
+outline
+Универсальное свойство, одновременно устанавливающее цвет, 
+стиль и толщину внешней границы на всех четырех сторонах элемента. 
+В отличие от линии, задаваемой через border, свойство outline 
+не влияет на положение блока и его ширину. 
+Также нельзя задать параметры линии на отдельных сторонах элемента, 
+outline применяется сразу ко всем четырём сторонам.
+
+box-shadow
+Добавляет тень к элементу.
+box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус расстояние и цвет
+Можно добавить много теней. На тень влияет свойство border-radius.
+filter: drop-shadow(30px 10px 4px #4444dd);
+
+opacity
+Определяет уровень прозрачности элемента.
+Отличие opacity:0; от display:none; в том что блок не 
+убирается из верстки а только становиться прозрачным, 
+то есть занимаемое им место остается. Так же, с прозрачными 
+элементами все еще можно взаимодействовать, например 
+кликать по ссылкам.
+
+visibility
+Предназначен для отображения или скрытия элемента.
+Отличие visibility: hidden; от display:none; в том что блок не убирается из верстки а только скрывается, то есть занимаемое им место остается.
+Отличие visibility: hidden; от opacity:0; в том что блок скрывается и взаимодействовать с ним нельзя.
+*/
+
+/* ========================================================================================= */
+/*
+.article {
+	max-width: 800px;
+	margin: 0px auto;
+	background-color: #eee;
+	padding: 15px;
+	font-size: 20px;
+}
+.article__image {
+	float: left;
+	width: 350px;
+	margin: 15px;
+}
+.item {
+	clear: both;
+}
+*/
+/*
+.items {
+}
+.item {
+	vertical-align: middle;
+	display: inline-block;
+	width: 100px;
+	padding: 15px;
+	background-color: green;
+}
+*/
+/*
+vertical-align: top;
+vertical-align: middle;
+vertical-align: bottom;
+*/
+
+/*
+.block {
+	background-color: green;
+	max-width: 300px;
+	margin: 0px auto;
+}
+*/
+/*
+1. Блочный
+2. Ограничен по ширине (уже чем родитель)
+3. margin: 0px auto; 
+*/
+/*
+.list {
+	font-size: 0;
+}
+.list li {
+	display: inline-block;
+}
+.link {
+	font-size: 16px;
+}
+*/
